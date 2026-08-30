@@ -44,20 +44,19 @@ const config = {
        docs: {
          sidebarPath: require.resolve('./sidebars.js'),
          // Please change this to your repo.
-         editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+         editUrl: 'https://github.com/Tukumomi/STS_Docs',
        },
        gtag: {
          trackingID: 'G-7WDP1YJ08K',
          anonymizeIP: true,
        },
-       blog: {
-         showReadingTime: true,
-         // Please change this to your repo.
-         editUrl:
-           'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-       },
        theme: {
          customCss: require.resolve('./src/css/custom.css'),
+       },
+       sitemap: {
+         changefreq: 'weekly',
+         priority: 0.5,
+         filename: 'sitemap.xml',
        },
      }),
    ],
