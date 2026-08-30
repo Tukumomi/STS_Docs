@@ -18,6 +18,7 @@ sidebar_position: 1
    - [**ScreenSpaceHUD & Overlay Shader**](https://momiji-maples.booth.pm/items/8607640)  
 
 2. **AssetからSecretTalkSystemの任意のPrefabをアバター直下に入れてください。**  
+
    |Prefab名|同期パラメーター数|説明|
    |:---|:---|:---|
    |SecretTalkSystem|14bit|すべての機能を搭載した通常版|
@@ -26,6 +27,7 @@ sidebar_position: 1
 3. **各アイテムの位置調整(必要時のみ)**  
    位置確認用にEditorOnlyのオブジェクトを表示しています。  
    Prefab配下にあるPositionSettingsの各項目の**Target_Position**から位置調整可能です。  
+
    |Object名|説明|
    |:---|:---|
    |InformationHalo_Position|ヘイローの位置調整用<br />**Target_Position_PB_Root**と**Target_Position_PB_End**の位置を調整してください。|
