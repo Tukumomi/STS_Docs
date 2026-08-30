@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SecretTalkSystem',
-  tagline: 'SecretTalkSystem |【 声を届ける相手を自由に選べる】内緒話ギミック',
+  tagline: '【 声を届ける相手を自由に選べる】内緒話ギミック',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
