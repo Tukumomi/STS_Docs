@@ -47,7 +47,7 @@ const config = {
          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
        },
        gtag: {
-         trackingID: '',
+         trackingID: 'G-7WDP1YJ08K',
          anonymizeIP: true,
        },
        blog: {
