@@ -113,6 +113,10 @@ STSユーザー同士での接続/連携機能はもちろん、STS非導入者�
 ユーザーの不利益を伴う規約更新を行う場合、施行の一ヶ月前には[**Twitter(X)**](https://x.com/Tukumomi_VR)、[**Booth商品ページ**](https://momiji-maples.booth.pm/items/8604995)、**本ページ**等で周知を行います。  
 その際はお手数ですが、規約の再確認をお願い致します。
 :::
+:::danger
+このデジタル製品はいかなるウェブサイト上でも再配布/再販/漏洩することを禁止しています。  
+(この「デジタル製品」とは、本商品フォルダに含まれるデータやUnityPackage内のすべてのデータファイルを指します。)  
+:::
 
 - [SecretTalkSystem利用規約](https://drive.google.com/drive/folders/10tmW9j6ObY2UqMhfN0Ax1-qee51AMNed?usp=drive_link)
 ----

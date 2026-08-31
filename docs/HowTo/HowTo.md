@@ -4,16 +4,16 @@ sidebar_position: 1
 
 # 導入方法と基本的な使い方  
 :::info
-    **MA v1.18.2現在の導入方法です。**  
+    **MA v1.18.6現在の導入方法です。**  
 :::
 :::warning
-    ⚠️**MA v1.18.2現在、アバター直下以外に配置する/Prefabの名称を変更するとギミックが壊れるためご注意ください。**  
+    ⚠️**MA v1.18.6現在、アバター直下以外に配置する/Prefabの名称を変更するとギミックが壊れるためご注意ください。**  
 :::
 ----
 ### 導入方法
 1. **予め以下のアセットをUnityにインポートしてください。**  
    - [**VRChat SDK**] v3.10.4以上  
-   - [**Modular Avater**](https://modular-avatar.nadena.dev/ja/) v1.18.2以上  
+   - [**Modular Avater**](https://modular-avatar.nadena.dev/ja/) v1.18.5以上  
    - [**liltoon**](https://lilxyzw.github.io/lilToon/)  
    - [**ScreenSpaceHUD & Overlay Shader**](https://momiji-maples.booth.pm/items/8607640)  
 

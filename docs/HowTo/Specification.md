@@ -10,7 +10,7 @@ sidebar_position: 1
         - Unity 2022.3.22f1
         - VRChat SDK - Avatars 3.10.4
         - VRChat SDK - Base 3.10.4
-        - Modular Avatar 1.18.3
+        - Modular Avatar 1.18.5
     【Write Defaults】
         - ON/OFF 両対応
     【Animatorレイヤー数】 
