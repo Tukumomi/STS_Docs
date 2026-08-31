@@ -37,3 +37,14 @@ PrivateChannelは接続相手ごとに使分けが可能です。
 おそらく`MA Move To`が正しく動いていないのが原因です。  
 `ModularAvatar v1.18.2`以上にしてお試しください。  
 問題が発生する場合、MAを最新版にアップデートしてお試しください。  
+
+### Q. VR時、HUDが表示されない…  
+シェーダー側の問題の可能性が高いです。  
+以下をご確認ください。  
+<input type="checkbox" /> [`ScreenSpaceHUD & Overlay Shader`](https://momiji-maples.booth.pm/items/8607640)の最新版を導入しているか  
+<input type="checkbox" /> デスクトップ版VRChatでは正しく表示されるか  
+
+VR時のみ表示されない場合、HMDの種類を記載した上でお問い合わせください。  
+(HMD対応のため、シェーダー側の更新の際にデバッグのご協力をお願いすることがあります。)  
+
+※「**VIVE Focus Vision**」は、`ScreenSpaceHUD & Overlay Shader v1.0.5`にて対応しました。
