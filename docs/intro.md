@@ -5,6 +5,8 @@ sidebar_position: 1
 # SecretTalkSystem
 
 <iframe width="448" height="252" src="https://www.youtube.com/embed/zN3t4c00NhI?si=y37Bpnsu4iRrWhRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="448" height="252" src="https://www.youtube.com/embed/mAXcrD3fpCE?si=uCXuK6Lz29NpVX91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [**SecretTalkSystem**](https://momiji-maples.booth.pm/items/8604995)(以下STS)は、自身の声を制御し任意の人にだけ声を聞こえるようにするアバターギミックです。  
 STSユーザー同士での接続/連携機能はもちろん、STS非導入者に対しても接続可能です。  
 

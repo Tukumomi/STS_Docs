@@ -27,16 +27,16 @@ sidebar_position: 1
 ※主要部分のみ記載  
 
 ```
-- Triangles: 7220
+- Triangles: 8052
 - Skinned Mesh Renderers: 5
-- Mesh Renderers: 9
-- Material Slots: 30
+- Mesh Renderers: 10
+- Material Slots: 31
 - Phys Bone Components: 6
 - Non-Local Contact Component Count: 47
 - Animator Count: 6
 - Particle Systems: 15
-- Audio Sources: 11
+- Audio Sources: 13
 - Texture Memory Usage: 4 MB
-- Constraint Component Count: 19
+- Constraint Component Count: 22
 - Raycasts: 1
 ```
