@@ -26,12 +26,13 @@ sidebar_position: 1
 
 3. **各アイテムの位置調整(必要時のみ)**  
    位置確認用にEditorOnlyのオブジェクトを表示しています。  
-   Prefab配下にあるPositionSettingsの各項目の**Target_Position**から位置調整可能です。  
+   Prefab配下にあるPositionSettingsの各項目の**Target_Position**から位置/角度/サイズ調整可能です。  
+   **※AポーズアバターではCollisionCheck_Positionの角度調整が必要です。**  
 
    |Object名|説明|
    |:---|:---|
    |InformationHalo_Position|ヘイローの位置調整用<br />**Target_Position_PB_Root**と**Target_Position_PB_End**の位置を調整してください。|
-   |CollisionCheck_Position|ConnectionMode時の魔方陣の位置調整用|
+   |CollisionCheck_Position|ConnectionMode時の魔方陣の位置調整用<br />・ **CollisionCheck_Hand_Position/Target** … 通常時の位置<br />・ **CollisionCheck_Point_Position/Target** … ビーム選択モード時の位置|
    |Drone_Position|ドローンの位置調整用|
    |FaceCamera_Position|GalleryView使用時のFaceCameraの位置調整用<br />FaceCamera表示がおかしい場合、Gizmoを表示してカメラ範囲内に顔が収まるように調整してください。|
 
@@ -87,11 +88,20 @@ sidebar_position: 1
 
     通常の導入方法後、以下の設定を行ってください。
 
+    【v1.0.3からの対応方法】  
+    ```
+    1. MA Replace Objectのパス修正  
+    `SecretTalkSystem/Main/VoiceController/Head_Origin`のReplace ObjectにアバターのHeadを設定し直してください。 
+    ```
+
+    【v1.0.2までの対応方法】  
+    ```
     1. MA Replace Objectのパス修正  
     `SecretTalkSystem/Main/VoiceController/Head_Origin`のReplace ObjectにアバターのHeadを設定し直してください。  
     2. ArmatureのHeadとの名前合わせ  
     `SecretTalkSystem/Main/VoiceController/Head`の`Head`Object名をArmatureに合わせてください。(`Head` or `head`)  
     (Animationには両パターンを設定しています。)  
+    ```
 
 </details>
 
@@ -148,6 +158,12 @@ STSの接続には主に2種類の接続方法があります。
     4. 右手で相手に1秒ほど触れると接続  
         接続時の当たり判定は**ネームプレートの下あたり**(**ユーザー選択時のカプセルコライダー**)を参考にしてください。  
         **詳しい方向けの解説**: `PlayerLocalのCharacterControllerのカプセルコライダー`が当たり判定になります。  
+
+        【v1.0.3～】  
+        ConnectionMode時に右手をPoint Gesture(☝)にすると**ビーム選択モード**に変化します。  
+        この状態では8m先(アバタースケール依存)までのプレイヤーに接続が可能になります。  
+        **※射線上のプレイヤー全員に接続されます。**  
+        **※すでに接続済みのプレイヤーにビームが触れてしまうとChannelが上書きされてしまうためご注意ください。**  
 
 </details>
 
