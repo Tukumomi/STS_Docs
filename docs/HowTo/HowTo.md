@@ -88,7 +88,7 @@ sidebar_position: 1
 
     通常の導入方法後、以下の設定を行ってください。
 
-    【v1.0.3からの対応方法】  
+    【v1.1.0からの対応方法】  
     ```
     1. MA Replace Objectのパス修正  
     `SecretTalkSystem/Main/VoiceController/Head_Origin`のReplace ObjectにアバターのHeadを設定し直してください。 
@@ -159,7 +159,7 @@ STSの接続には主に2種類の接続方法があります。
         接続時の当たり判定は**ネームプレートの下あたり**(**ユーザー選択時のカプセルコライダー**)を参考にしてください。  
         **詳しい方向けの解説**: `PlayerLocalのCharacterControllerのカプセルコライダー`が当たり判定になります。  
 
-        【v1.0.3～】  
+        【v1.1.0～】  
         ConnectionMode時に右手をPoint Gesture(☝)にすると**ビーム選択モード**に変化します。  
         この状態では8m先(アバタースケール依存)までのプレイヤーに接続が可能になります。  
         **※射線上のプレイヤー全員に接続されます。**  
