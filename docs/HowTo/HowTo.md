@@ -84,11 +84,14 @@ sidebar_position: 1
 </details>
 
 <details id="標準外Armatureへの対応方法">
-<summary>**【標準外Armatureへの対応方法】**</summary>
+<summary>**【標準外Armatureへの対応方法(v1.1.0以前)】**</summary>
 
+    :::warning
+    v1.2.0からこの作業は不要になりました。  
+    :::
     通常の導入方法後、以下の設定を行ってください。
 
-    【v1.1.0からの対応方法】  
+    【v1.1.0の対応方法】  
     ```
     1. MA Replace Objectのパス修正  
     `SecretTalkSystem/Main/VoiceController/Head_Origin`のReplace ObjectにアバターのHeadを設定し直してください。 
@@ -197,8 +200,9 @@ STSの接続には主に2種類の接続方法があります。
 
 - **指先追従/ワールド固定**  
    ドローンの前にPointGesture状態の人差し指を持っていくとあなたの指先についていきます。  
-   左右どちらの手でも可能。追従中は360°自由に回転します。  
-   GestureをPoint/Fist以外に変更すると元の位置へ戻ります。  
+   追従中はIdleGestureでも追従状態が維持されます。  
+   左右どちらの手でも追従可能。追従中は360°自由に回転します。  
+   GestureをPoint/Idle/Fist以外に変更すると元の位置へ戻ります。  
    追従中にGestureをFistにするとその場にワールド固定します。  
    ワールド固定を解除する場合はもう一度追従モードにしてから解除してください。  
 

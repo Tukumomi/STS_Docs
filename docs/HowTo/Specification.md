@@ -37,6 +37,6 @@ sidebar_position: 1
 - Particle Systems: 15
 - Audio Sources: 13
 - Texture Memory Usage: 4 MB
-- Constraint Component Count: 22
+- Constraint Component Count: 22-24
 - Raycasts: 1
 ```
